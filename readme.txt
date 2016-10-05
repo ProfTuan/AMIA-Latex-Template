@@ -8,13 +8,16 @@ Modifications has been made to original cls file to address the compilation of t
 - Tuan Amith
 ************
 
-Files:
+Essential Files:
 
-amia.cls is a latex class file to produce a PDF in the format required by AMIA.
+* amia.cls is a latex class file to produce a PDF in the format required by AMIA.
 
-amia.tex is a latex document which can be used as example of use of amia.cls.
-In addition, the text in this file contains details about the AMIA format requirements.
+* amia.tex is a latex document which can be used as example of use of amia.cls.
+  In addition, the text in this file contains details about the AMIA format requirements.
 
-amia.bib is the latex bibliography file
-It is important to keep the bibliography style "unsrt" so the references follow the citation order.
+  If you use dvipdf to produce the final PDF, margins might not follow the instructions of the template.
+  You are advised to use "dvipdfm -p letter" instead.
+
+* amia.bib is the latex bibliography file
+  It is important to keep the bibliography style "unsrt" so the references follow the citation order.
 
