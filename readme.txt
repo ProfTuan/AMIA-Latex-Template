@@ -1,4 +1,4 @@
-AMIA Latex example (updated 2016)
+AMIA Latex Template (updated 2016)
 ------------------
 
 ************
