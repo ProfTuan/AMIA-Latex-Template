@@ -14,9 +14,11 @@
 \usepackage[paper=letterpaper, margin=1in]{geometry}
 \usepackage{caption}
 \usepackage{fullpage}
-
+\usepackage{graphicx}
 \usepackage{float}
-
+\usepackage{url}
+\urlstyle{rm} % typeset urls in roman instead of in typewriter style
+\usepackage{titlesec}
 % Bibliographic references appear as superscript indices
 
 
@@ -25,6 +27,9 @@
 \date{}
 
 \AtBeginDocument{}
+
+\titlespacing*{\subparagraph}{0pt}{0.5ex plus 1ex minus .2ex}{1.3ex plus .2ex}
+\titlespacing*{\paragraph}{0pt}{0.5ex plus 1ex minus .2ex}{1.3ex plus .2ex}
 
 \renewcommand\title[1]{\gdef\@title{{\center\reset@font\fontsize{14pt}{10pt}\bfseries\rmfamily #1 }}}
 
