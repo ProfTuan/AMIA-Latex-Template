@@ -1,11 +1,14 @@
 # AMIA Latex Template (updated 2024)
-------------------
 
 ************
+
 This is the latex template for American Medical Informatics Association by Antonio Jimeno Yepes. 
+
 It has been updated from the original version authored by him. 
 Modifications has been made to original cls file to address the compilation of the bibliography and some minor additions for the style.
-- Tuan Amith
+
+- Tuan Amith, PhD
+
 ************
 
 Essential Files:
