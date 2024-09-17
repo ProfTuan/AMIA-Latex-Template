@@ -12,7 +12,8 @@
 \usepackage[super]{natbib}
 % Paper to US letter
 \usepackage[paper=letterpaper, margin=1in]{geometry}
-\usepackage{caption}
+\usepackage[labelfont=bf]{caption}
+\captionsetup[table]{position=top}  
 \usepackage{fullpage}
 \usepackage{graphicx}
 \usepackage{float}
@@ -20,6 +21,8 @@
 \urlstyle{rm} % typeset urls in roman instead of in typewriter style
 \usepackage{titlesec}
 % Bibliographic references appear as superscript indices
+\usepackage[superscript]{cite}
+
 
 
 \bibpunct{[}{]}{,}{n}{}{;}

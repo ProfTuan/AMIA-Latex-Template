@@ -1,6 +1,5 @@
 \documentclass{amia}
 \usepackage{lipsum} %Remove if not needed
-
 \setlength{\bibsep}{0pt} %Comment out if you don't want to condense the bibliography
 
 \begin{document}
@@ -42,9 +41,11 @@ More text of an additional paragraph, with a figure reference (Figure~\ref{fig:a
 
 This is additional text added just to show the one-column formatting. This is additional text added just to show the one-column formatting. This is additional text added just to show the one-column formatting.  This is additional text added just to show the one-column formatting. This is additional text added just to show the one-column formatting. This is additional text added just to show the one-column formatting.  This is additional text added just to show the one-column formatting.
 
-This paragraph contains a reference to a table just below (Table~\ref{tab:submission}).  All tables need to be placed as close to the corresponding text as possible, But each individual table should be on one page and not extend to multiple pages unless labeled as ``Continued".
+This paragraph contains a reference to a table just below (Table \ref{tab:submission}).  All tables need to be placed as close to the corresponding text as possible, But each individual table should be on one page and not extend to multiple pages unless labeled as ``Continued".
 
 \begin{table}[H]
+	\caption{Submission type, abstract length, and page length maximum for AMIA submissions.}
+	\label{tab:submission}
 \begin{center}
 \begin{tabular}{|l|l|l|}
 \hline
@@ -68,8 +69,7 @@ ACMI Senior Presentations	&150-200 words	    &Two                 \\
 \hline
 \end{tabular}
 \end{center}
-\caption{Submission type, abstract length, and page length maximum for AMIA submissions.}
-\label{tab:submission}
+
 \end{table}
 
 This is another paragraph.
