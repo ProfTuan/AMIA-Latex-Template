@@ -1,4 +1,4 @@
-AMIA Latex Template (updated 2024)
+# AMIA Latex Template (updated 2024)
 ------------------
 
 ************
